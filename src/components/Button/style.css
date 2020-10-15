@@ -1,0 +1,15 @@
+.buttonMain {
+  height: 64px;
+  width: 296px;
+  min-width: 150px;
+  background: #FF8B37;
+  border-radius: 12px;
+  border: 0px;
+  font-family: Inter;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 116%;
+  cursor: pointer;
+}

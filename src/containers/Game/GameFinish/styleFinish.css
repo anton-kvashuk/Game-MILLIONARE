@@ -1,0 +1,72 @@
+
+.frameLabel {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-bottom: 64px;
+}
+
+.labelTotal {
+  width: 624px;
+height: 37px;
+left: 0px;
+top: 0px;
+
+/* Desktop / ?Question */
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 116%;
+/* or 37px */
+
+display: flex;
+align-items: center;
+
+/* Black-100 */
+
+color: #1C1C21;
+opacity: 0.5;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+margin: 0px 8px;
+}
+
+
+
+.earned {
+  width: 624px;
+height: 65px;
+left: 0px;
+top: 45px;
+
+/* Desktop / Headline */
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 56px;
+line-height: 116%;
+/* identical to box height, or 65px */
+
+display: flex;
+align-items: center;
+
+/* Black-100 */
+
+color: #1C1C21;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+align-self: center;
+flex-grow: 0;
+margin: 0px 8px;
+}

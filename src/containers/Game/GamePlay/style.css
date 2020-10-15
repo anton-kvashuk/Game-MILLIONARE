@@ -1,0 +1,169 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+
+  
+}
+
+.frameLeft {
+  background-color: #F5F5F7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 80px;
+}
+
+.question {
+  width: 100%;
+  height: 74px;
+  margin-top: 133px;
+  /* Desktop / ?Question */
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 116%;
+  /* or 37px */
+  text-align: left;
+  /* Black-100 */
+  color: #1C1C21;
+}
+
+
+
+
+.answersGroup {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.btnSubmit{
+    height: 64px;
+    width: 296px;
+    min-width: 150px;
+    background: #FF8B37;
+    border-radius: 12px;
+    border: 0px;
+    font-family: Inter;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 116%;
+    cursor: pointer;
+}
+
+.mainOption {
+  background-image: url(./but_img/Inactive.png);
+  width: 405px;
+  height: 72px;
+
+  text-align: center;
+  line-height: 48px;
+  display: flex;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.textDes {
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 116%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px 0px;
+}
+
+.mainOption:hover {
+  background-image: url(./but_img/Hover.png);
+}
+
+.mainOption.selected {
+  background-image: url(./but_img/Selected.png);
+}
+
+.mainOption.error {
+  background-image: url(./but_img/Hover.png);
+}
+
+.mainOption.correct {
+  background-image: url(./but_img/Correct.png);
+}
+
+.line {
+  position: absolute;
+  width: 200%;
+  height: 0px;
+  right: 0px;
+  border: 1px solid #FFFFFF;
+}
+
+.option {
+  height: 72px;
+  width: 380px;
+}
+
+
+.frameRight {
+  background-color: #FFFFFF;
+  align-content: center;
+  text-align: center;
+  padding: 166px 0;
+}
+
+.lineOption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.downBlock{
+  margin-bottom: 122px;
+}
+.optionPrice{
+  background-image: url(./but_img/StepInactive.png);
+  width: 376px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+  font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 116%;
+/* or 23px */
+display: flex;
+align-items: center;
+text-align: center;
+/* Black-100 */
+color: #1C1C21;
+}
+
+
+.optionPrice.inactive {
+  background-image: url(./but_img/StepInactive.png);
+  color: #D0D0D8
+}
+
+.optionPrice.finish {
+  background-image: url(./but_img/StepFinished.png);
+}
+
+.optionPrice.current {
+  background-image: url(./but_img/StepCurrent.png);
+  color: #FF8B37;
+}
